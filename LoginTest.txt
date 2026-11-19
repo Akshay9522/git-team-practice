@@ -30,3 +30,5 @@ Steps:
 
 Expected Result:
 Required validation message should be displayed.
+Test Case 5: Verify login with expired password
+Expected Result: Password expired message should be displayed.
