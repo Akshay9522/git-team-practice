@@ -10,3 +10,13 @@ Steps:
 
 Expected Result:
 User should navigate to Dashboard.
+
+Test Case: Invalid Login
+
+Steps:
+1. Enter invalid username.
+2. Enter invalid password.
+3. Click Login.
+
+Expected Result:
+Invalid credentials message should be displayed.
