@@ -19,7 +19,8 @@ Steps:
 3. Click Login.
 
 Expected Result:
-Login should fail with an invalid username or password error.
+Error message should be displayed for invalid login credentials.
+
 Test Case: Empty Username
 
 Steps:
