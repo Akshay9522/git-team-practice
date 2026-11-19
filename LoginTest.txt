@@ -19,8 +19,7 @@ Steps:
 3. Click Login.
 
 Expected Result:
-Invalid credentials message should be displayed.
-
+Error message should be displayed for invalid login credentials.
 Test Case: Empty Username
 
 Steps:
