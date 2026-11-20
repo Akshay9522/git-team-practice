@@ -1,0 +1,9 @@
+Test Case 1: Verify add to cart
+
+Steps:
+1. Open the application.
+2. Select a product.
+3. Click Add to Cart.
+
+Expected Result:
+Product should be added to the cart successfully.
