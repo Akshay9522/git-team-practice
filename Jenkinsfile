@@ -37,6 +37,20 @@ pipeline {
                 echo 'Step 5: Deploying application to QE environment - SIMULATED'
             }
         }
+        
+stage('Trigger QE Smoke Tests') {
+    steps {
+        echo 'Triggering Selenium QE Automation Pipeline'
+
+        build job: 'Selenium-Java-Pipeline',
+              parameters: [
+                  string(name: 'TEST_SUITE', value: 'smoke')
+              ],
+              wait: true,
+              propagate: true
+    }
+}
+        
     }
 
     post {
