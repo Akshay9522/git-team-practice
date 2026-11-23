@@ -1,0 +1,9 @@
+Test Case 1: Verify product search
+
+Steps:
+1. Open the application.
+2. Enter a valid product name.
+3. Click Search.
+
+Expected Result:
+Matching products should be displayed.
